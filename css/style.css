@@ -90,6 +90,7 @@ header {
 
 .nav-item,
 .contacts-item {
+	position: relative;
 	font-weight: 500;
 	line-height: 16px;
 	letter-spacing: 0.02em;
@@ -118,6 +119,17 @@ header {
 
 .nav-link__current {
 	color: var(--brandblue);
+}
+
+.nav-item__current::after {
+	position: absolute;
+	bottom: -1px;
+	border-radius: 2px;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 4px;
+	background-color: #2196f3;
 }
 
 .contacts-link {
