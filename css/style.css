@@ -10,8 +10,10 @@
 	--white: #fff;
 	--black: #000;
 	--btn-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	--card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+	--card-shadow-team: 0px 1px 3px rgba(0, 0, 0, 0.12),
 		0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	--card-shadow-portfolio: 0px 1px 1px rgba(0, 0, 0, 0.12),
+		0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .color-black {
@@ -303,7 +305,7 @@ header {
 .team-item {
 	width: 270px;
 	background: #ffffff;
-	box-shadow: var(--card-shadow);
+	box-shadow: var(--card-shadow-team);
 	border-radius: 0px 0px 4px 4px;
 }
 
@@ -569,7 +571,7 @@ header {
 
 .portfolio-item__link:hover,
 .portfolio-item__link:focus {
-	box-shadow: var(--card-shadow);
+	box-shadow: var(--card-shadow-portfolio);
 }
 
 .portfolio-item img,
