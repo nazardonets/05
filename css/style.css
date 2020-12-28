@@ -494,7 +494,7 @@ header {
 	min-width: 528px;
 	background-color: white;
 	border-radius: 4px;
-	box-shadow: var(--card-shadow);
+	box-shadow: var(--card-shadow-team);
 }
 
 .modal-button__close {
