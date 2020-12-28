@@ -14,6 +14,7 @@
 		0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	--card-shadow-portfolio: 0px 1px 1px rgba(0, 0, 0, 0.12),
 		0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	--transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .color-black {
@@ -113,6 +114,16 @@ header {
 	align-items: center;
 	padding-top: 32px;
 	padding-bottom: 32px;
+}
+
+.nav-link,
+.contacts-link,
+.clients-item__link,
+.portfolio-item__link,
+.socials-list__item-link,
+.filter-btn {
+	transition: var(--transition);
+	cursor: pointer;
 }
 
 .nav-link {
@@ -560,10 +571,6 @@ header {
 	margin-bottom: 30px;
 	position: relative;
 	border: 1px solid #eeeeee;
-}
-
-.portfolio-item__link {
-	transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item__link:hover,
