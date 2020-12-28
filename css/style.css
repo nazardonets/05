@@ -380,13 +380,6 @@ header {
 	align-items: center;
 	width: 170px;
 	height: 90px;
-	border: 1px solid #afb1b8;
-	border-radius: 4px;
-}
-
-.clients-item:hover,
-.clients-item:focus {
-	border-color: var(--brandblue);
 }
 
 .clients-item:not(:last-child) {
@@ -394,14 +387,16 @@ header {
 }
 
 .clients-item__link {
-	display: flex;
 	width: 100%;
 	height: 100%;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
 }
 
 .clients-item__link:hover,
 .clients-item__link:focus {
 	color: var(--brandblue);
+	border-color: var(--brandblue);
 }
 
 .clients-item__icon-company1 {
