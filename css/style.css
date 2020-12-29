@@ -121,8 +121,11 @@ header {
 .clients-item__link,
 .portfolio-item__link,
 .socials-list__item-link,
-.filter-btn {
+.filter-btn,
+.portfolio-item-thumbnail__animated {
 	transition: var(--transition);
+	transition-property: color, background-color, transform, box-shadow,
+		border-color;
 	cursor: pointer;
 }
 
@@ -633,7 +636,6 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding: 24px;
-	transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item__link:hover .portfolio-item-thumbnail__animated,
