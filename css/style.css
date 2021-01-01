@@ -124,7 +124,7 @@ header {
 .filter-btn,
 .portfolio-item-thumbnail__animated {
 	transition: var(--transition);
-	transition-property: color, background-color, transform, box-shadow,
+	transition-property: fill, color, background-color, transform, box-shadow,
 		border-color;
 	cursor: pointer;
 }
@@ -644,6 +644,8 @@ header {
 }
 
 .thumbnail-description {
+	margin-top: 0;
+	margin-bottom: 0;
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 0.03em;
